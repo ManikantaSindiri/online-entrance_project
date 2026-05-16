@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Entrance Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+
+        <div class="left-section">
+            <h1>Online Entrance Registration</h1>
+            <p>
+                Register for admissions quickly and securely.
+                Fill your details and submit the application.
+            </p>
+        </div>
+
+        <div class="form-section">
+
+            <h2>Student Registration</h2>
+
+            <form id="registerForm">
+
+                <input type="text" id="name" placeholder="Enter Full Name" required>
+
+                <input type="email" id="email" placeholder="Enter Email Address" required>
+
+                <input type="text" id="phone" placeholder="Enter Phone Number" required>
+
+                <select id="course">
+                    <option>B.Tech</option>
+                    <option>BCA</option>
+                    <option>MCA</option>
+                    <option>MBA</option>
+                </select>
+
+                <button type="submit">Register Now</button>
+
+            </form>
+
+            <p id="message"></p>
+
+            <a href="students.html" class="view-btn">
+                View Registered Students
+            </a>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
