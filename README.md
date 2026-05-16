@@ -1,9 +1,7 @@
 Run Project
 node server.js
 
-Open browser:
-
-http://localhost:3000                                                                             # Online Entrance Registration System 
+Open browser:                                                                                  https://online-entrance-project.onrender.com                                                                                                                                                                     # Online Entrance Registration System 
 
 A simple web-based student registration project developed using HTML, CSS, JavaScript, Node.js, Express.js, and MySQL.
 
